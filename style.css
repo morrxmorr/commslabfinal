@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* pure white bkground was too harsh */
+    background: whitesmoke;
+}
+
+#container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#background {
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    top: 0;
+    left: 0;
+}
+
+.building {
+    position: absolute;
+    background: whitesmoke;
+    border: 0px solid gray;
+    object-fit: cover;
+}
+
+/* interaction of if player was over it it would gain a black border for confirmation */
+.building.hovered {
+    outline: 16px solid black;
+    outline-offset: -4px;
+    z-index: 999;
+}
+
+/* sprite details */
+#sprite {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 70px;
+    background: violet;
+    border: 0px solid whitesmoke;
+    z-index: 100;
+}
+
+/* this is all for the placements of each single text box with and without arrows */ 
+/* because bgX and bgY moved these relative to their starting pos I can use css to reposition them */
+
+.scrolling-title {
+    position: absolute;
+    left: 720px;
+    transform: translateX(-50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.scrolling-title.main {
+    top: 35px;
+}
+
+.scrolling-title.sub {
+    top: 135px;
+}
+
+.scrolling-title.sub2 {
+    left: 570px;
+    scale: 55%;
+    top: 440px;
+}
+
+.scrolling-title.sub6 {
+    left: 605px;
+    scale: 55%;
+    top: 474px;
+}
+
+.scrolling-title.sub3 {
+    top: 350px;
+    left: 200px
+}
+
+.scrolling-title.sub4 {
+    top: 350px;
+    left: 1220px;
+}
+
+.scrolling-title.sub5 {
+    top: 580px;
+}
+
+.scrolling-title.sub7 {
+    left:517.5px;    
+    top: 1100px;     
+}
+
+.scrolling-title.sub8 {
+    left: 922.5px;
+    top: 1100px;
+}
+
+.scrolling-title.sub9 {
+    left: 517.5px;
+    top: 1600px;
+}
+
+.scrolling-title.sub10 {
+    left: 922.5px;
+    top: 1600px;
+}
+
+.scrolling-title.sub11 {
+    left: -400px;
+    top: -74.5px;
+}
