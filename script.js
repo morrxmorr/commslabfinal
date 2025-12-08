@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
             height: 120,
             x: 1550,
             y: 160,
-            image: 'assets/logo1.png'
+            image: 'logo1.png'
         },
         {
             id: 6,
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
             height: 120,
             x: 1400,
             y: 310,
-            image: 'assets/logo2.png'
+            image: 'logo2.png'
         },
         {
             id: 7,
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
             height: 120,
             x: 1700,  // Far right
             y: 310,   // Near top
-            image: 'assets/logo3.png'
+            image: 'logo3.png'
         },
         {
             id: 8,
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
             height: 120,
             x: 1550,    // Far left
             y: 460,  // Near bottom
-            image: 'assets/logo4.png'
+            image: 'logo4.png'
         }
     ];
 
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
             building.style.left = buildingData.x + 'px';
             building.style.top = buildingData.y + 'px';
 
-            building.src = `assets/building${buildingData.id}.png`;
+            building.src = `building${buildingData.id}.png`;
 
             background.appendChild(building);
         }
@@ -131,62 +131,62 @@ document.addEventListener('DOMContentLoaded', function () {
         // -------------------TITLES AND SUBTITLES-----------------------
         //here are the titles and subtitles, any other text on the page (because of the scrolling)
         const title = document.createElement('img');
-        title.src = 'assets/title.png';
+        title.src = 'title.png';
         title.className = 'scrolling-title main';
         background.appendChild(title);
 
         const subtitleImg = document.createElement('img');
-        subtitleImg.src = 'assets/subtitle.png';
+        subtitleImg.src = 'subtitle.png';
         subtitleImg.className = 'scrolling-title sub';
         background.appendChild(subtitleImg);
 
         const subtitleImg2 = document.createElement('img');
-        subtitleImg2.src = 'assets/subtitle2.png';
+        subtitleImg2.src = 'subtitle2.png';
         subtitleImg2.className = 'scrolling-title sub2';
         background.appendChild(subtitleImg2);
 
         const subtitleImg3 = document.createElement('img');
-        subtitleImg3.src = 'assets/subtitle3.png';
+        subtitleImg3.src = 'subtitle3.png';
         subtitleImg3.className = 'scrolling-title sub3';
         background.appendChild(subtitleImg3);
 
         const subtitleImg4 = document.createElement('img');
-        subtitleImg4.src = 'assets/subtitle4.png';
+        subtitleImg4.src = 'subtitle4.png';
         subtitleImg4.className = 'scrolling-title sub4';
         background.appendChild(subtitleImg4);
 
         const subtitleImg5 = document.createElement('img');
-        subtitleImg5.src = 'assets/subtitle5.png';
+        subtitleImg5.src = 'subtitle5.png';
         subtitleImg5.className = 'scrolling-title sub5';
         background.appendChild(subtitleImg5);
 
         const subtitleImg6 = document.createElement('img');
-        subtitleImg6.src = 'assets/subtitle6.png';
+        subtitleImg6.src = 'subtitle6.png';
         subtitleImg6.className = 'scrolling-title sub6';
         background.appendChild(subtitleImg6);
 
         const subtitleImg7 = document.createElement('img');
-        subtitleImg7.src = 'assets/subtitle7.png';
+        subtitleImg7.src = 'subtitle7.png';
         subtitleImg7.className = 'scrolling-title sub7';
         background.appendChild(subtitleImg7);
 
         const subtitleImg8 = document.createElement('img');
-        subtitleImg8.src = 'assets/subtitle8.png';
+        subtitleImg8.src = 'subtitle8.png';
         subtitleImg8.className = 'scrolling-title sub8';
         background.appendChild(subtitleImg8);
 
         const subtitleImg9 = document.createElement('img');
-        subtitleImg9.src = 'assets/subtitle9.png';
+        subtitleImg9.src = 'subtitle9.png';
         subtitleImg9.className = 'scrolling-title sub9';
         background.appendChild(subtitleImg9);
 
         const subtitleImg10 = document.createElement('img');
-        subtitleImg10.src = 'assets/subtitle10.png';
+        subtitleImg10.src = 'subtitle10.png';
         subtitleImg10.className = 'scrolling-title sub10';
         background.appendChild(subtitleImg10);
 
         const subtitleImg11 = document.createElement('img');
-        subtitleImg11.src = 'assets/subtitle11.png';
+        subtitleImg11.src = 'subtitle11.png';
         subtitleImg11.className = 'scrolling-title sub11';
         background.appendChild(subtitleImg11);
 
