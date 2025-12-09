@@ -195,8 +195,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function setInitialPosition() {
         // makes sure character starts in the middle of the map
-        bgX = 0;
-        bgY = 0;
+        bgX = 560;
+        bgY = 300;
         background.style.transform = `translate(${bgX}px, ${bgY}px)`;
         sprite.style.visibility = 'visible';
         sprite.style.display = 'block';
